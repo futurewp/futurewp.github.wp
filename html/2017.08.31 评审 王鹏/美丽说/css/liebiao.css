@@ -1,0 +1,218 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-25 21:32:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-30 21:17:41
+*/
+@import url('base.css');
+/* header开始  */
+header{
+	width: 100%;
+	height: 1.36rem;
+	background: #ffffff;
+	border-bottom: 0.01rem solid #d1d1d1;
+	padding: 0.33rem 0.48rem 0 0.44rem;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 999;
+}
+.header-left{
+	display: block;
+    width: 0.32rem;
+    height: 0.55rem;
+    background: url('../img/imgliebiao/hl.png') no-repeat center center;
+    background-size:0.32rem 0.55rem; 
+}
+.header-center{
+    height: 0.5rem;
+    font-size: 0.5rem;
+    color: #353535;
+}
+.header-right{
+	display: block;
+    width: 0.66rem;
+    height: 0.69rem;
+    background: url('../img/imgliebiao/hr.png') no-repeat center center;
+    background-size:0.66rem 0.69rem; 
+}
+#header-box{
+	width: 100%;
+	height: 1.35rem;
+}
+/* header结束 */
+.banner{
+	width: 100%;
+	height: 3.6rem;
+}
+/* 列表 开始 */
+.dingdan{
+	width: 100%;
+	height: 1.29rem;
+	padding: 0.43rem 0.2rem 0 0.6rem;
+	margin-bottom: 0.33rem;
+	display: flex;
+	justify-content: space-between;
+}
+.dingdan2{
+	display: block;
+	height: 0.86rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.dingdan1{
+	height: 0.38rem;
+	font-size: 0.38rem;
+	color: #666666;
+}
+.dingdan3{
+	width: 0.75rem;
+	height: 0.06rem;
+	background: none;
+}
+.dingdan .dingdan4{
+	color: #ff6699;
+}
+.dingdan .dingdan5{
+	background: #ff6699;
+}
+.dingdan2:hover .dingdan1{
+	color: #ff6699;
+}
+ .dingdan2:hover .dingdan3{
+	background: #ff6699;
+}
+.dingdan:hover .dingdan2 .dingdan4{
+	color: #666666;
+}
+.dingdan:hover .dingdan2 .dingdan5{
+	background: none;
+}
+/* 列表 结束 */
+.sp{
+   display: block;
+   width: 100%;
+   height: 2.82rem;
+   padding: 0 0.29rem;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 0.65rem;
+}
+.sp1{
+	width: 2.89rem;
+	height: 100%;
+	border-radius: 0.2rem;
+	position: relative;
+}
+.sp3{
+	display: block;
+	width: 1.63rem;
+	height: 0.6rem;
+	background: url('../img/imgliebiao/cj.png') no-repeat center center;
+	background-size: 1.63rem 0.6rem;
+	position: absolute;
+	left: 0.1rem;
+	bottom: 0.08rem;
+}
+.sp3-1{
+	background: none;
+}
+.sp2{
+	width: 7.03rem;
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sp4{
+	width: 100%;
+	font-size: 0.38rem;
+	color: #000000;
+}
+.sp5{
+	width: 100%;
+	height: 1.29rem;
+    display: flex;
+    justify-content: space-between;
+}
+.sp6{
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sp7{
+	width: 2.59rem;
+	height: 0.85rem;
+	background: #ff6699;
+	border-radius: 2rem;
+	font-size: 0.38rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.85rem;
+	margin-top: 0.44rem;
+}
+.sp8{
+	width: 3.42rem;
+	height: 0.46rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.sp9{
+	height: 0.31rem;
+	font-size: 0.30rem;
+	color: #666666;
+	line-height: 0.31rem;
+	margin-bottom: 0.12rem;
+}
+.sp10{
+	height: 100%;
+	font-size: 0.46rem;
+	color: #ff6699;
+}
+.sp11{
+	font-size: 0.22rem;
+	color: #666666;
+	text-decoration:line-through;
+}
+/* 底部 */
+.dibu{
+	width: 100%;
+	height: 1.49rem;
+	background: #ffffff;
+	border-top: 0.01rem solid #d1d1d1;
+	padding: 0.05rem 0.29rem 0.27rem 0.44rem;
+	display: flex;
+	justify-content: space-around;
+ 	position: fixed;
+	z-index: 999; 
+	left:0 ;
+	bottom: 0;
+}
+.dibu1{
+	display: block;
+	width: 1.8rem;
+	height: 100%;
+}
+.dibu2{
+	width: 0.58rem;
+	height: 0.58rem;
+	margin: 0.2rem 0 0.2rem 0.6rem;
+}
+.img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.dibu-word{
+	width: 100%;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	color: #848484;
+	line-height: 0.22rem;
+	text-align: center;
+}
+/* 底部结束 */

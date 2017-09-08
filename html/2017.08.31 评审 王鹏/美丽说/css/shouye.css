@@ -1,0 +1,596 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-24 17:40:06
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-25 12:51:07
+*/
+@import url('base.css');
+/* header开始  */
+header{
+	width: 100%;
+	height: 1.35rem;
+	background: #ffffff;
+	padding: 0.37rem 0.37rem 0 0.3rem;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 999;
+}
+.header-left{
+	display: block;
+    width: 0.57rem;
+    height: 0.59rem;
+    background: url('../img/sousuo.png') no-repeat center center;
+    background-size:0.57rem 0.59rem; 
+}
+.header-center{
+    width: 1.58rem;
+    height: 0.5rem;
+    font-size: 0.5rem;
+    color: #353535;
+}
+.header-right{
+	display: block;
+    width: 0.61rem;
+    height: 0.55rem;
+    background: url('../img/header-right.png') no-repeat center center;
+    background-size:0.61rem 0.55rem; 
+}
+#header-box{
+	width: 100%;
+	height: 1.35rem;
+}
+/* header结束 */
+/* banner开始  */
+.banner{
+   width: 100%;
+   height: 5.6rem;
+   background: yellow;
+   position:relative;
+}
+.banner-list{
+	width: 100%;
+	height: 5.6rem;
+	background: yellow;
+	position:relative;
+}
+.banner-list li{
+	width: 100%;
+	height: 5.6rem;
+	background: blue;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+.img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+ .bar-list{
+	width: 1.42rem;
+	height: 0.1rem;
+	position:absolute;
+    left:0;      
+    right:0;  
+    margin-left:auto;  
+    margin-right: auto;
+    bottom: 0.29rem;
+}
+.bar-list li{
+	width: 0.1rem;
+	height: 0.1rem;
+	background: #f4dcc2;
+	float: left;
+	border-radius: 50%;
+	margin-right: 0.3rem;
+}
+.bar-list .last{
+	margin-right: 0px;
+}
+.bar-list1{
+	width: 1.46rem;
+	height: 0.1rem;
+	position:absolute;
+    left:0;      
+    right:0;  
+    margin-left:auto;  
+    margin-right: auto;
+	bottom: 0.29rem;
+}
+.bar-list1 li{
+	width: 0.26rem;
+	height: 0.1rem;
+	float: left;
+	border-radius: 0.05rem;
+	margin-right: 0.14rem;
+}
+.bar-list1 .last{
+	margin-right: 0px;
+	background: #fafeff;
+}
+.bar-list1 li:hover{
+	background: #fafeff;
+}
+.bar-list1:hover .last{
+	background: none;
+}
+/* banner结束 */
+/* 横标1开始 */
+.hengbiao1{
+	width: 100%;
+	height: 1.3rem;
+	border-bottom: 0.15rem solid #f1f4f9;
+	padding: 0.38rem 0.1rem 0 0.3rem;
+	display: flex;
+	justify-content: space-between;
+}
+.hengbiao1-1{
+	width: 2.5rem;
+	height: 0.32rem;
+}
+.hengbiao1-2{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	margin-top: 0.1rem;
+	float: left;
+}
+.hengbiao1-3{
+	display: block;
+	height: 0.34rem;
+	font-size: 0.3rem;
+	color: #b3b3b3;
+	float: left;
+}
+/* 横标1结束 */
+/* 一分开始  */
+.yifen{
+	width: 100%;
+	height: 3.75rem;
+	border-bottom: 0.15rem solid #f1f4f9;
+	padding: 0.45rem /* 1.38 */0.44rem 0 0.44rem;
+	display: flex;
+	justify-content: space-between;
+}
+.yifen1{
+	width: 2.2rem;
+	height: 3.15rem;
+}
+.yifen2{
+	display: block;
+	width: 2.2rem;
+	height: 2.2rem;
+	margin-bottom: 0.25rem;
+	margin-left: 0.29rem；
+}
+.yifen3{
+	display: block;
+	width: 100%;
+	height: 0.34rem;
+	text-align: center;
+	font-size: 0.3rem;
+	line-height: 0.34rem;
+	color: #3e3e3e;
+}
+/* 一分结束 */
+/* 秒杀开始  */
+.miaosha{
+	width: 100%;
+	height: 6.2rem;
+	border-bottom: 0.15rem solid #f1f4f9;
+}
+.miaosha1{
+    width: 10.52rem;
+    height: 1.16rem;
+	display: flex;
+	justify-content: space-between;
+}
+.miaosha2{
+	width: 2.5rem;
+	height: 100%;
+}
+.miaosha3{
+	width: 5.4rem;
+	height: 100%;
+	font-size: 0.34rem;
+	color: #b0b0b0;
+	line-height: 1.16rem;
+}
+.miaosha4{
+	display: block;
+	width: 0.87rem;
+	height: 100%;
+	background: url('../img/miaoshao1 (1).png') no-repeat center center;
+	background-size: 0.87rem 1.16rem;
+	float: left;
+}
+.miaosha5{
+	height: 100%;
+	font-size: 0.34rem;
+	color: #383838;
+	line-height: 1.16rem;
+	float: left;
+}
+.miaosha6{
+	display: block;
+	width: 100%;
+	height: 4.3rem;
+}
+
+/* 秒杀结束  */
+/* 今日上新开始 */
+.jinri{
+	width: 100%;
+	height: 6.98rem;
+	border-bottom: 0.15rem solid #f1f4f9;
+}
+.jinri1{
+    width: 100%;
+    height: 1.16rem;
+	display: flex;
+	justify-content: space-between;
+}
+.jinri2{
+	width: 2.5rem;
+	height: 100%;
+}
+.jinri6{
+	height: 1.16rem;
+}
+.jinri3{
+	display: block;
+	width: 5.4rem;
+	height: 100%;
+	font-size: 0.34rem;
+	color: #b0b0b0;
+	line-height: 1.16rem;
+	float: left;
+}
+.jinri7{
+	display: block;
+	width: 0.63rem;
+	height: 100%;
+	background: url('../img/jinri2.png') no-repeat center center;
+	background-size: 0.63rem 1.16rem;
+	float: left;
+}
+.jinri4{
+	display: block;
+	width: 0.87rem;
+	height: 100%;
+	background: url('../img/jinri1.png') no-repeat center center;
+	background-size: 0.87rem 1.16rem;
+	float: left;
+}
+.jinri5{
+	height: 100%;
+	font-size: 0.34rem;
+	color: #383838;
+	line-height: 1.16rem;
+	float: left;
+}
+.jinri8{
+	width: 100%;
+	height: 5.02rem;
+	padding: 0 0.3rem;
+	display: flex;
+	justify-content: space-between;
+}
+.jinri9{
+	display: block;
+	width: 3rem;
+	height: 5.02rem;
+}
+.jinri10{
+	width: 100%;
+	height: 4.5rem;
+	margin-bottom: 0.2rem;
+}
+.jinri11{
+	width: 100%;
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #444444;
+	text-align: center;
+	line-height: 0.28rem;
+}
+/* 今日上新结束 */
+/* 搭配开始 */
+.dapei-box{
+	width: 100%;
+	height: 63.03rem;
+	padding: 0 0.28rem;
+	border-bottom: 0.15rem solid #f1f4f9;
+}
+.dapei{
+	width: 100%;
+	height: 6.2rem;
+	border-bottom: 0.15rem solid #f1f4f9;
+}
+.dapei1{
+    width: 10.52rem;
+    height: 1.16rem;
+	display: flex;
+	justify-content: space-between;
+}
+.dapei2{
+	width: 3rem;
+	height: 100%;
+}
+.dapei3{
+	width: 4.0rem;
+	height: 100%;
+	font-size: 0.34rem;
+	color: #b0b0b0;
+	line-height: 1.16rem;
+}
+.dapei4{
+	display: block;
+	width: 0.87rem;
+	height: 100%;
+	background: url('../img/dapei.png') no-repeat center center;
+	background-size: 0.87rem 1.16rem;
+	float: left;
+}
+.dapei5{
+	height: 100%;
+	font-size: 0.34rem;
+	color: #383838;
+	line-height: 1.16rem;
+	float: left;
+}
+/* 搭配1 */
+.dapei-box1{
+	width: 100%;
+	height: 10.13rem;
+	margin-bottom: 0.63rem;
+}
+.dapei-box2{
+	display: block;
+	width: 6.83rem;
+	height: 100%;
+	padding-right: 0.06rem;
+	float: left;
+}
+.dapei-box3{
+	width: 3.41rem;
+	height: 100%;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.dapei-box4{
+	display: block;
+	width: 100%;
+	height: 3.35rem;
+	background: blue;
+	position: relative;
+}
+.dapei-box5{
+	width: 1.4rem;
+	height: 0.66rem;
+	background: rgba(0, 0, 0, 0.3);
+	font-size: 0.28rem;
+	color: #fdfffc;
+	text-align: center;
+	line-height: 0.66rem;
+	position: absolute;
+	bottom: 0rem;
+	right: 0rem;
+}
+.dapei-box6{
+	display: block;
+	width: 100%;
+	height: 5.17rem;
+}
+.dapei-box7{
+	width: 100%;
+	height: 4.5rem;
+	padding: 0.15rem 0 0.68rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+.dapei-box8{
+	display: block;
+	width: 2.1rem;
+	height: 100%;
+}
+.dapei-box9{
+	width: 100%;
+	height: 3.16rem;
+	margin-bottom: 0.2rem;
+}
+.dapei-box10{
+	width: 100%;
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #444444;
+	text-align: center;
+	line-height: 0.28rem;
+}
+.dapei-box11{
+	width: 100%;
+	height: 1.04rem;
+	display: flex;
+	justify-content: center;
+}
+.dapei-box12{
+	display: block;
+	width: 9.5rem;
+	height: 1.04rem;
+	background: #f1f4f9;
+	border-radius: 2rem;
+	font-size: 0.32rem;
+	color: #28292b;
+	text-align: center;
+	line-height: 1.04rem;
+}
+/* 搭配结束 */
+/* 流行单品开始  */
+.liuxing{
+	width: 100%;
+	height: 6.2rem;
+	border-bottom: 0.15rem solid #f1f4f9;
+}
+.liuxing1{
+    width: 10.52rem;
+    height: 1.16rem;
+	display: flex;
+	justify-content: space-between;
+}
+.liuxing2{
+	width: 3rem;
+	height: 100%;
+}
+.liuxing3{
+	width: 4.0rem;
+	height: 100%;
+	font-size: 0.34rem;
+	color: #b0b0b0;
+	line-height: 1.16rem;
+}
+.liuxing4{
+	display: block;
+	width: 0.87rem;
+	height: 100%;
+	background: url('../img/liuxing.png') no-repeat center center;
+	background-size: 0.87rem 1.16rem;
+	float: left;
+}
+.liuxing5{
+	height: 100%;
+	font-size: 0.34rem;
+	color: #383838;
+	line-height: 1.16rem;
+	float: left;
+}
+.liuxing-box{
+	width: 100%;
+	height: 19.36rem;
+	padding: 0 0.28rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.liuxing-box1{
+	width: 100%;
+	height: 9.32rem;
+	display: flex;
+	justify-content: space-between;
+}
+.liuxing-box2{
+	display: block;
+	width: 4.95rem;
+	height: 100%;
+}
+.liuxing-box3{
+	width: 100%;
+	height: 7.4rem;
+	margin-bottom: 0.22rem;
+}
+.liuxing-box4{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 0.2rem;
+}
+.liuxing-word1{
+	height: 0.42rem;
+	background: #f6dea2;
+	font-size: 0.22rem;
+	color: #2b1c23;
+	text-align: center;
+	line-height: 0.42rem;
+	margin-right: 0.1rem;
+}
+.liuxing-word2{
+	height: 0.42rem;
+	background: #f0f5f9;
+	font-size: 0.22rem;
+	color: #8b8e95;
+	text-align: center;
+	line-height: 0.42rem;
+	margin-right: 0.1rem;
+}
+.liuxing-word3{
+	height: 0.42rem;
+	background: #f0f5f9;
+	font-size: 0.22rem;
+	color: #8b8e95;
+	text-align: center;
+	line-height: 0.42rem;
+	margin-right: 0.1rem;
+}
+.liuxing-word4{
+	height: 0.42rem;
+	background: #f0f5f9;
+	font-size: 0.22rem;
+	color: #8b8e95;
+	text-align: center;
+	line-height: 0.42rem;
+	margin-right: 0.1rem;
+}
+.liuxing-box5{
+	width: 100%;
+	height: 0.36rem;
+	display: flex;
+	justify-content: space-between;
+}
+.liuxing-box6{
+	height: 0.36rem;
+	font-size: 0.26rem;
+    color: #515151;
+}
+.liuxing-box8{
+	height: 100%;
+	font-size: 0.26rem;
+    color: #515151;
+    float: left;
+}
+.liuxing-box9{
+	display: block;
+	width: 0.51rem;
+	height: 100%;
+	background: url('../img/xx.png') no-repeat center center;
+	background-size: 0.51rem 0.36rem;
+	margin-top: 0.1rem;
+	float: left;
+}
+/* 流行单品结束  */
+/* 底部 */
+.dibu{
+	width: 100%;
+	height: 1.36rem;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	bottom: 0;
+}
+.dibu1{
+	display: block;
+	width: 1.4rem;
+	height: 100%;
+}
+.dibu2{
+	width: 0.58rem;
+	height: 0.58rem;
+	margin: 0.2rem 0 0.2rem 0.4rem;
+}
+.dibu-word{
+	width: 100%;
+	height: 0.3rem;
+	font-size: 0.28rem;
+	color: #9a9a9a;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.dibu-word1{
+	color: #ff74a3;
+}

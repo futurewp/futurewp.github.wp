@@ -1,0 +1,346 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-25 21:32:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-30 21:22:12
+*/
+@import url('base.css');
+/* header开始  */
+header{
+	width: 100%;
+	height: 1.50rem;
+	background: #ffffff;
+	border-bottom: 0.15rem solid #f2f5f8;
+	padding: 0.47rem 0.21rem 0.42rem 4.27rem;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 999;
+}
+
+.header-center{
+    height: 0.58rem;
+    font-size: 0.5rem;
+    color: #353535;
+}
+.header-right{
+	display: block;
+    height: 0.58rem;
+    font-size: 0.42rem;
+    color: #353535;
+}
+#header-box{
+	width: 100%;
+	height: 1.35rem;
+}
+/* header结束 */
+/* 商品开始 */
+.sp{
+	width: 100%;
+	height:12.5rem;
+	border-bottom: 0.15rem solid #f2f5f8; 
+}
+.sp-top{
+	width: 100%;
+	height: 1.5rem;
+	border-bottom: 0.02rem solid #f2f5f8;
+	padding: 0.42rem 0.55rem 0.52rem 0.3rem; 
+	display: flex;
+	justify-content: space-between;
+}
+.sp-top1{
+	display: block;
+	width: 0.55rem;
+	height: 0.55rem;
+	border-radius: 50%;
+	background: url('../img/imggouwuche/duihao.png') no-repeat center center;
+	background-size: 0.55rem 0.55rem;
+}
+.sp-top2{
+	display: block;
+	width: 9.03rem;
+	height: 0.55rem;
+	display: flex;
+	justify-content: space-between;
+}
+.sp-top3{
+	height: 0.55rem;
+	font-size: 0.42rem;
+	color: #333333;
+	line-height: 0.55rem;
+}
+.sp-top4{
+	height: 0.55rem;
+	font-size: 0.34rem;
+	color: #ff6699;
+	line-height: 0.55rem;
+}
+.sp-bottom{
+	width: 100%;
+	height: 5.43rem;
+	padding: 0.47rem 0.42rem 0.61rem 0.3rem;
+	border-bottom: 0.02rem solid #f2f5f8; 
+	display: flex;
+	justify-content: space-between;
+}
+.sp-bottom1{
+	margin-top: 1.5rem;
+}
+.sp-bottom2{
+	display: block;
+	width: 9.18rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.sp-bottom3{
+	width: 100%;
+	height: 3.6rem;
+	display: flex;
+	justify-content: space-between;
+}
+.sp-bottom5{
+	width: 2.4rem;
+	height: 3.6rem;
+	background: red;
+	border-radius: 0.2rem;
+}
+.sp-bottom6{
+	width: 6.5rem;
+	height: 2.94rem;
+	margin-top: 0.06rem;
+}
+.sp-word1{
+	width: 100%;
+	height: 0.8rem;
+	font-size: 0.36rem;
+	color: #333333;
+    margin-bottom: 0.45rem;
+}
+.sp-word2{
+	width: 100%;
+	height: 0.34rem;
+	font-size: 0.32rem;
+	color: #999999;
+	line-height: 0.34rem;
+	margin-bottom: 0.95rem;
+}
+.sp-bottom7{
+	width: 100%;
+	height: 0.38rem;
+	display: flex;
+	justify-content: space-between;
+}
+.sp-word3{
+	height: 0.38rem;
+	font-size: 0.36rem;
+	color: #333333;
+	line-height: 0.38rem;
+}
+.sp-bottom4{
+	width: 100%;
+	height: 0.34rem;
+	font-size: 0.34rem;
+	color: #e40046;
+	margin-left: 0.2rem;
+}
+.sp-bottom8{
+	border-bottom: 0rem solid #f2
+}
+/* 商品结束 */
+/* 猜你喜欢开始 */
+.like{
+	width: 100%;
+	height: 1.5rem;
+	font-size: 0.36rem;
+	color: #666666;
+	line-height: 1.5rem;
+	margin-left: 0.3rem;
+}
+.liuxing-box{
+	width: 100%;
+	height: 18.75rem;
+	padding: 0 0.3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.liuxing-box1{
+	width: 100%;
+	height: 9.15rem;
+	display: flex;
+	justify-content: space-between;
+}
+.liuxing-box2{
+	display: block;
+	width: 4.95rem;
+	height: 100%;
+	border: 0.01rem solid #eeeeee;
+/* 	border-radius: 0.2rem; */
+}
+.liuxing-box3{
+	width: 100%;
+	height: 7.4rem;
+	margin-bottom: 0.27rem;
+}
+.liuxing-box4{
+	width: 100%;
+	height: 0.42rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 0.35rem;
+}
+.liuxing-word1{
+	height: 0.42rem;
+	border-radius: 0.05rem;
+	padding:0 0.1rem ;
+	background: #ff6699;
+	font-size: 0.22rem;
+	color: #2b1c23;
+	text-align: center;
+	line-height: 0.42rem;
+	margin-right: 0.1rem;
+}
+.liuxing-word2{
+	height: 0.42rem;
+	font-size: 0.30rem;
+	color: #666666;
+	line-height: 0.42rem;
+	float: left;
+}
+.liuxing-box5{
+	width: 100%;
+	height: 0.36rem;
+	display: flex;
+	justify-content: space-between;
+}
+.liuxing-box6{
+	height: 0.36rem;
+	font-size: 0.26rem;
+    color: #515151;
+}
+.liuxing-box8{
+	height: 100%;
+	font-size: 0.26rem;
+    color: #515151;
+    float: left;
+}
+.liuxing-box9{
+	display: block;
+	width: 0.51rem;
+	height: 100%;
+	background: url('../img/imggouwuche/xx.png') no-repeat center center;
+	background-size: 0.51rem 0.36rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+/* 猜你喜欢结束 */
+/* 结束开始 */
+.jiesuan{
+	width: 100%;
+	height: 2.82rem;
+ 	position: fixed;
+	z-index: 999; 
+	left:0 ;
+	bottom: 0;
+}
+.jiesuan1{
+	width: 100%;
+	height: 1.46rem;
+	background: #ffffff;
+	border-bottom: 0.01rem solid #c3c3c3;
+	padding-left: 0.45rem;
+	display: flex;
+	justify-content: space-between;
+}
+.jiesuan2{
+	height: 100%;
+}
+.jiesuan3{
+	height: 100%;
+}
+.jiesuan4{
+	margin-top: 0.44rem;
+	margin-right: 0.25rem;
+	float: left;
+}
+.jiesuan5{
+	height: 100%;
+	font-size: 0.42rem;
+	color: #333333;
+	line-height: 1.46rem;
+	float: left;
+}
+.jiesuan6{
+	height: 100%;
+	padding: 0.33rem 0.3rem 0.26rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	float: left;
+}
+.jiesuan10{
+	height: 0.36rem;
+}
+.jiesuan7{
+	height: 0.36rem;
+	font-size: 0.34rem;
+	color: #ff76a3;
+	line-height: 0.36rem;
+	float: left;
+}
+.jiesuan8{
+	height: 0.32rem;
+	font-size: 0.28rem;
+	color: #999999;
+	line-height: 0.32rem;
+}
+.jiesuan9{
+	display: block;
+	width: 2.64rem;
+	height: 100%;
+	background: #ff6699;
+	font-size: 0.44rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 1.46rem;
+	float: left;
+}
+/* 底部 */
+.dibu{
+	width: 100%;
+	height: 1.36rem;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-around;
+}
+.dibu1{
+	display: block;
+	width: 1.4rem;
+	height: 100%;
+}
+.dibu2{
+	width: 0.58rem;
+	height: 0.58rem;
+	margin: 0.2rem 0 0.2rem 0.4rem;
+}
+.img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.dibu-word{
+	width: 100%;
+	height: 0.3rem;
+	font-size: 0.28rem;
+	color: #9a9a9a;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.dibu-word1{
+	color: #ff74a3;
+}
+/* 结束结束 */
+/* 底部结束 */

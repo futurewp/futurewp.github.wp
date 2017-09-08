@@ -1,0 +1,352 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-24 17:40:06
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-30 21:27:12
+*/
+@import url('base.css');
+/* header开始  */
+header{
+	width: 100%;
+	height: 1.32rem;
+	background: #ffffff;
+	padding: 0.21rem 0.3rem ;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	z-index: 999;
+}
+.h{
+	display: block;
+	width: 9.18rem;
+	height: 100%;
+	background: #f2f5f8;
+	border-radius: 0.1rem;
+}
+.h1{
+	width: 1.1rem;
+	height: 0.9rem;
+	background: url('../img/imgfenlei/hl.png') no-repeat center center;
+	background-size: 1.1rem 0.9rem;
+	float: left;
+}
+.h2{
+	width: 0.9rem;
+	height: 0.9rem;
+	font-size: 0.34rem;
+	color: #aaaaaa;
+    line-height: 0.9rem;
+    float: left;
+}
+.header-right{
+	display: block;
+    width: 0.8rem;
+    height: 0.9rem;
+    background: url('../img/imgfenlei/hr.png') no-repeat center center;
+    background-size:0.8rem 0.9rem; 
+}
+#header-box{
+	width: 100%;
+	height: 1.35rem;
+}
+/* header结束 */
+/* 列表开始 */
+.lb{
+	width: 100%;
+	height: 17.58rem;
+	border-bottom: 0.15rem solid #f2f5f8;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.lb li a{
+	display: block;
+	width: 2.7rem;
+	height: 4.36rem;
+	border-right: 0.01rem solid #f2f5f8;
+	border-top: 0.01rem solid #f2f5f8;
+}
+.lb li a:nth-child(4n){
+	border-right: none;
+}
+.lb1{
+	width: 1.95rem;
+	height: 2.90rem;
+	margin-top: 0.06rem;
+	margin-left: 0.42rem;
+}
+.lb2{
+   width: 100%;
+   height: 1.4rem;
+   font-size: 0.36rem;
+   color: #666666;
+   text-align: center;
+   line-height: 1.4rem;
+}
+/* 列表结束 */
+/* 热门百搭 */
+.hot{
+	width: 100%;
+	height: 4.5rem;
+	border-bottom: 0.15rem solid #f2f5f8;
+	padding: 0 0.3rem;
+}
+.hot-top{
+	width: 100%;
+	height: 1.5rem;
+	display: flex;
+    justify-content: space-between;
+}
+.hot-top1{
+	height: 1.5rem;
+	font-size: 0.5rem;
+	color: #000000;
+	line-height: 1.5rem;
+}
+.hot-top2{
+	display: block;
+	height: 1.5rem;
+}
+.hot-top3{
+	height: 1.5rem;
+	font-size: 0.34rem;
+	color: #999999;
+	line-height: 1.5rem;
+	float: left;
+}
+.hot-top4{
+	width: 0.39rem;
+	height: 1.5rem;
+	background: url('../img/imgfenlei/5555.png') no-repeat center center;
+	background-size: 0.39rem 1.5rem;
+	float: left;
+}
+.hot-bottom{
+	width: 100%;
+	height: 2.25rem;
+	display: flex;
+    justify-content: space-around;
+}
+.hot-bottom1{
+	display: block;
+	width: 4.2rem;
+	height: 2.25rem;
+}
+/* 列表 开始 */
+.dingdan{
+	width: 100%;
+	height: 1.5rem;
+	padding-top: 0.7rem;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom:0.3rem; 
+}
+.dingdan2{
+	display: block;
+	height: 0.78rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.dingdan1{
+	height: 0.38rem;
+	font-size: 0.38rem;
+	color: #666666;
+}
+.dingdan3{
+	width: 0.74rem;
+	height: 0.07rem;
+	background: none;
+}
+.dingdan .dingdan4{
+	color: #000;
+}
+.dingdan .dingdan5{
+	background: #333333;
+}
+.dingdan2:hover .dingdan1{
+	color: #000;
+}
+ .dingdan2:hover .dingdan3{
+	background: #333333;
+}
+.dingdan:hover .dingdan2 .dingdan4{
+	color: #666666;
+}
+.dingdan:hover .dingdan2 .dingdan5{
+	background: none;
+}
+/* 列表 结束 */
+/* 流行开始  */
+.liuxing{
+	width: 100%;
+	height: 6.2rem;
+	border-bottom: 0.15rem solid #f1f4f9;
+}
+.liuxing1{
+    width: 10.52rem;
+    height: 1.16rem;
+	display: flex;
+	justify-content: space-between;
+}
+.liuxing2{
+	width: 3rem;
+	height: 100%;
+}
+.liuxing3{
+	width: 4.0rem;
+	height: 100%;
+	font-size: 0.34rem;
+	color: #b0b0b0;
+	line-height: 1.16rem;
+}
+.liuxing4{
+	display: block;
+	width: 0.87rem;
+	height: 100%;
+	background: url('../img/imgfenlei/liuxing.png') no-repeat center center;
+	background-size: 0.87rem 1.16rem;
+	float: left;
+}
+.liuxing5{
+	height: 100%;
+	font-size: 0.34rem;
+	color: #383838;
+	line-height: 1.16rem;
+	float: left;
+}
+.liuxing-box{
+	width: 100%;
+	height: 19.36rem;
+	padding: 0 0.28rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.liuxing-box1{
+	width: 100%;
+	height: 9.32rem;
+	display: flex;
+	justify-content: space-between;
+}
+.liuxing-box2{
+	display: block;
+	width: 4.95rem;
+	height: 100%;
+}
+.liuxing-box3{
+	width: 100%;
+	height: 7.4rem;
+	margin-bottom: 0.22rem;
+}
+.liuxing-box4{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 0.2rem;
+}
+.liuxing-word1{
+	height: 0.42rem;
+	background: #f6dea2;
+	font-size: 0.22rem;
+	color: #2b1c23;
+	text-align: center;
+	line-height: 0.42rem;
+	margin-right: 0.1rem;
+}
+.liuxing-word2{
+	height: 0.42rem;
+	background: #f0f5f9;
+	font-size: 0.22rem;
+	color: #8b8e95;
+	text-align: center;
+	line-height: 0.42rem;
+	margin-right: 0.1rem;
+}
+.liuxing-word3{
+	height: 0.42rem;
+	background: #f0f5f9;
+	font-size: 0.22rem;
+	color: #8b8e95;
+	text-align: center;
+	line-height: 0.42rem;
+	margin-right: 0.1rem;
+}
+.liuxing-word4{
+	height: 0.42rem;
+	background: #f0f5f9;
+	font-size: 0.22rem;
+	color: #8b8e95;
+	text-align: center;
+	line-height: 0.42rem;
+	margin-right: 0.1rem;
+}
+.liuxing-box5{
+	width: 100%;
+	height: 0.36rem;
+	display: flex;
+	justify-content: space-between;
+}
+.liuxing-box6{
+	height: 0.36rem;
+	font-size: 0.26rem;
+    color: #515151;
+}
+.liuxing-box8{
+	height: 100%;
+	font-size: 0.26rem;
+    color: #515151;
+    float: left;
+}
+.liuxing-box9{
+	display: block;
+	width: 0.51rem;
+	height: 100%;
+	background: url('../img/imgfenlei/xx.png') no-repeat center center;
+	background-size: 0.51rem 0.36rem;
+	margin-top: 0.1rem;
+	float: left;
+}
+/* 流行结束  */
+/* 底部 */
+.dibu{
+	width: 100%;
+	height: 1.36rem;
+	background: #ffffff;
+	border-top: 0.01rem solid #c3c3c3;
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	bottom: 0;
+}
+.dibu1{
+	display: block;
+	width: 1.4rem;
+	height: 100%;
+}
+.dibu2{
+	width: 0.58rem;
+	height: 0.58rem;
+	margin: 0.2rem 0 0.2rem 0.4rem;
+}
+.img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.dibu-word{
+	width: 100%;
+	height: 0.3rem;
+	font-size: 0.28rem;
+	color: #9a9a9a;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.dibu-word1{
+	color: #ff74a3;
+}

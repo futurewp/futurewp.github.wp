@@ -1,0 +1,250 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-25 21:32:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-30 21:05:30
+*/
+@import url('base.css');
+/* header开始  */
+.big-box{
+	width: 100%;
+	height: 2.85rem;
+	border-bottom:0.15rem solid #f6f6f6;
+	position: relative;
+	top: 0;
+	bottom: 0; 
+}
+header{
+	width: 100%;
+	height: 1.38rem;
+	background: #ffffff;
+	border-bottom:0.01rem solid #f2f5f8; 
+	padding: 0.46rem 0 0.45rem 0.29rem;
+}
+.header-left{
+	display: block;
+    width: 0.3rem;
+    height: 0.59rem;
+    background: url('../img/imgdingdan/Screenshot_2017-08-25-20-30-17-51_03.png') no-repeat center center;
+    background-size:0.3rem 0.59rem; 
+    float: left;
+}
+.header-center{
+    height: 0.5rem;
+    float: left;
+    font-size: 0.5rem;
+    color: #353535;
+    margin-left: 3.63rem;
+}
+/* 订单列表 开始 */
+.dingdan{
+	width: 100%;
+	height: 1.32rem;
+	border-bottom:0.02rem solid #eeeeee;
+	padding: 0.46rem 0.25rem 0 0.44rem;
+	display: flex;
+	justify-content: space-between;
+}
+.dingdan2{
+	display: block;
+	height: 0.86rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.dingdan .dingdan2:nth-child(2){
+    position: relative;
+}
+.dingdan6{
+	width: 0.36rem;
+	height: 0.36rem;
+	background: #fc4c47;
+	border-radius: 50%;
+	font-size: 0.12rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.36rem;
+	position: absolute;
+	top: -0.24rem;
+	right: -0.29rem;
+}
+.dingdan1{
+	height: 0.38rem;
+	font-size: 0.38rem;
+	color: #666666;
+}
+.dingdan3{
+	width: 0.75rem;
+	height: 0.06rem;
+	background: none;
+}
+.dingdan .dingdan4{
+	color: #000;
+}
+.dingdan .dingdan5{
+	background: #333333;
+}
+.dingdan2:hover .dingdan1{
+	color: #000;
+}
+ .dingdan2:hover .dingdan3{
+	background: #333333;
+}
+.dingdan:hover .dingdan2 .dingdan4{
+	color: #666666;
+}
+.dingdan:hover .dingdan2 .dingdan5{
+	background: none;
+}
+/* 订单列表 结束 */
+/* header结束 */
+/* 商品开始 */
+.sp{
+	display: block;
+	width: 100%;
+	height: 7.46rem;
+}
+.sp1{
+	width: 10.20rem;
+	height: 1.45rem;
+	margin-left: 0.3rem;
+	border-bottom: 0.01rem solid #f6f6f6;
+	padding: 0.5rem 0.31rem 0 0.17rem;
+	display: flex;
+	justify-content: space-between;
+}
+.sp2{
+	height: 0.38rem;
+	font-size: 0.38rem;
+	color: #333333;
+}
+.sp3{
+	height: 0.38rem;
+	font-size: 0.34rem;
+	color: #333333;
+}
+.sp4{
+	width: 10.5rem;
+	height: 3.42rem;
+	margin-left: 0.3rem;
+	border-bottom: 0.01rem solid #f6f6f6;
+	padding: 0.34rem 0.32rem  0.35rem  0;
+
+}
+.sp5{
+	width: 1.8rem;
+	height: 2.7rem;
+	margin-right: 0.32rem;
+	float: left;
+}
+.img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.sp6{
+	width: 5.96rem;
+	height: 2rem;
+	float: left;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+	margin-right: 0.7rem;
+}
+.sp7{
+	height: 0.82rem;
+	font-size: 0.38rem;
+	color: #333333;
+}
+.sp8{
+	height: 0.36rem;
+	font-size: 0.36rem;
+	color: #999999;
+	line-height: 0.36rem;
+}
+.sp9{
+	height: 2.15rem;
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.sp10{
+	height: 0.33rem;
+	font-size: 0.32rem;
+	color: #333333;
+}
+.sp11{
+	height: 0.30rem;
+	font-size: 0.30rem;
+	color: #999999;
+}
+.sp12{
+	width: 10.5rem;
+	height: 1.27rem;
+	margin-left: 0.3rem;
+	border-bottom: 0.01rem solid #f6f6f6;
+    padding: 0.46rem 0.3rem 0.38rem 5.44rem;
+    display: flex;
+    justify-content: space-between;
+}
+.sp13{
+	height: 0.42rem;
+	font-size: 0.36rem;
+	color: #333333;
+	line-height: 0.42rem;
+}
+.sp14{
+	height: 0.42rem;
+	font-size: 0.36rem;
+	color: #ff6699;
+	line-height: 0.42rem;
+}
+.sp15{
+	width: 100%;
+	height: 1.3rem;
+	padding: 0.25rem 0.3rem 0.25rem 0.47rem;
+	display: flex;
+	justify-content: space-between;
+}
+.sp16{
+	height: 0.8rem;
+	font-size: 0.38rem;
+	color: #ff6699;
+	line-height: 0.8rem;
+}
+.sp17{
+	width: 2.18rem;
+	height: 0.8rem;
+	background: #ff6699;
+	border-radius: 1rem;
+	font-size: 0.38rem;
+	color: #ffffff;
+	line-height: 0.8rem;
+	text-align: center;
+}
+/* 商品结束 */
+/* 结尾开始 */
+.jw{
+	width: 100%;
+	height: 8.85rem;
+	background: #f6f6f6;
+}
+.jw1{
+	width: 3.47rem;
+	height: 0.61rem;
+	margin-left: 1.41rem;
+	border-bottom: 0.01rem solid #e5e5e5;
+	float: left;
+}
+.jw2{
+	width: 1.06rem;
+	height: 0.74rem;
+	float: left;
+}
+.jw3{
+	margin-left: 0rem;
+}
+/* 结尾结束 */

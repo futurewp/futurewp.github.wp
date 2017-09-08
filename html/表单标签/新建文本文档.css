@@ -1,0 +1,13 @@
+/*
+* @Author: asus
+* @Date:   2017-08-21 18:39:10
+* @Last Modified by:   asus
+* @Last Modified time: 2017-08-21 18:44:08
+*/
+area{
+	是否允许用户进行大小设置
+	resize: none;			/* 不允许 */
+	resize: both;			/* 允许 */
+	resize: horizontal;		/* 水平 */
+	resize: vertical;  		垂直
+}

@@ -1,0 +1,485 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-23 13:27:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-23 21:40:58
+*/
+@import url(base.css);
+/* body{
+	width: 100%;
+	height: 30rem;
+} */
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.88rem;
+	background: #f32d2d;
+	position: fixed;
+	top: 0;
+	bottom:0; 
+    z-index:999;
+}
+#header{
+	width: 100%;
+	height: 0.88rem;
+}
+.mianbaoxie{
+	display: block;
+	width: 0.41rem;
+	height: /* 0.34 */0.88rem;
+	background: url('../img/header_01.png') no-repeat center center;
+	background-size: 0.41rem 0.34rem;
+	margin: 0 0.4rem;
+	float: left;
+}
+.header-center{
+	width: 3.98rem;
+	height: 0.66rem;
+	background: #fee9e9;
+	border-radius: 0.05rem;
+	float: left;
+	margin-top: 0.1rem;
+}
+.text{
+	width: 3.25rem;
+	height: 0.66rem;
+	border: none;
+	background: #fee9e9;
+	padding-left: 0.2rem;
+	float: left;
+}
+.text:focus{
+	outline: none;
+}
+.sousuo{
+	display: block;
+	width: 0.53rem;
+	height: 0.66rem;
+	background: url('../img/sousuo.png') no-repeat center center;
+	background-size: 0.75rem 0.66rem;
+	float: left;
+}
+.header-right{
+	display: block;
+	width: 0.47rem;
+	height: 0.88rem;
+	float: left;
+	font-size: 0.22rem;
+	color: #ffffff;
+	margin: 0 0.36rem;
+    line-height: 0.88rem;
+}
+
+/* 头部结束  */
+/* banner开始 */
+.banner{
+   width: 100%;
+   height: 2.22rem;
+   background: yellow;
+   position:relative;
+}
+.banner-list{
+	width: 100%;
+	height: 2.22rem;
+	background: yellow;
+	position:relative;
+}
+.banner-list li{
+	width: 100%;
+	height: 2.22rem;
+	background: blue;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+.banner-img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+ .bar-list{
+	width: 1.4rem;
+	height: 0.14rem;
+	position:absolute;
+    left:0;      
+    right:0;  
+    margin-left:auto;  
+    margin-right: auto;
+    bottom: 0.16rem;
+}
+.bar-list li{
+	width: 0.14rem;
+	height: 0.14rem;
+	background: #a2a2a2;
+	float: left;
+	border-radius: 50%;
+	margin-right: 0.04rem;
+}
+.bar-list .last{
+	margin-right: 0px;
+}
+.bar-list1{
+	width: 1.38rem;
+	height: 0.12rem;
+	position:absolute;
+    left:0;      
+    right:0;  
+    margin-left:auto;  
+    margin-right: auto;
+	bottom: 0.17rem;
+}
+.bar-list1 li{
+	width: 0.12rem;
+	height: 0.12rem;
+	float: left;
+	border-radius: 50%;
+	margin-right: 0.06rem;
+}
+.bar-list1 .last{
+	margin-right: 0px;
+	background: #f1f1f1;
+}
+.bar-list1 li:hover{
+	background: #f1f1f1;
+}
+.bar-list1:hover .last{
+	background: none;
+}
+ /* banner结束 */
+.nav{
+	width: 100%;
+	height: 2.4rem;
+	background: #ffffff;
+}
+.nav-list{
+	width: 100%;
+	height: 1.16rem;
+	margin-bottom: 0.08rem;
+}
+.nav-list li{
+	width:1.28rem;
+	height: 1.16rem;
+	float: left;
+	background: #ffffff;
+	display: block;
+}
+.picture{
+	width: 0.72rem;
+	height: 0.72rem;
+	background: yellow;
+	display: block;
+	border-radius: 20%;
+	margin: 0.08rem auto 0;
+}
+.jifen-img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.word{
+	display: block;
+	color: black;
+	font-size: 0.21rem;
+	text-align: center;
+	margin-top: 0.1rem;
+}
+.nav-list1{
+	margin-top: 0rem；
+}
+/* 必抢 */
+.biqiang1{
+	width: 0.67rem;
+	height: 0.29rem;
+	border-bottom: 0.02rem solid #f6b7b7;
+	margin-left: 1.88rem;
+	float: left;
+}
+.biqiang2{
+	display: block;
+	width: 0.25rem;
+	height: 0.3rem;
+	background: url('../img/biqiang1.png') no-repeat center center;
+	background-size: 0.25rem 0.3rem; 
+	margin: 0.1rem 0.1rem 0 0.2rem;
+	float: left;
+}
+.biqiang3{
+	height: 0.24rem;
+	margin-top: 0.12rem;
+	font-size: 0.24rem;
+	color: #ff2e2e;
+	float: left;
+}
+.biqiang4{
+	margin-left: 0.2rem;
+}
+.biqing5{
+	width: 100%;
+	height: 2.55rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #f0f0f0;
+}
+.biqing5 li{
+	width: 25%;
+	height: 100%;
+	float: left;
+    box-sizing: border-box;
+    padding-top: 0.14rem; 
+}
+.biqing5 li:last-child{
+	border-left:0.01rem solid #f0f0f0; 
+    border-bottom: 0.01rem solid #f0f0f0;
+}
+.biqing6{
+	width: 100%;
+	height: 0.24rem;
+    font-size: 0.24rem;
+    color: #2f2f2f;
+    text-align: center;
+    margin-bottom: 0.18rem;
+}
+.biqing7{
+	width: 100%;
+	height: 1.36rem;
+	background: #ffffff;
+	margin-bottom: 0.23rem;
+}
+.biqing8{
+	height: 0.17rem;
+	margin-left: 0.22rem;
+}
+.biqing9{
+	height: 0.17rem;
+	float: left;
+	font-size: 0.16rem;
+	color: #ff2e2e;
+	line-height:0.17rem; 
+}
+.biqing10{
+	color: #9b9b9b;
+	text-decoration: line-through;
+}
+.biqing11{
+    border-bottom: 0rem solid #f0f0f0;
+}
+
+/* 潮流酷玩 */
+.chaoliu{
+	width: 100%;
+	height: 0.62rem;
+	background: #f0f0f0;
+}
+.chaoliu1{
+	width: 0.67rem;
+	height: 0.32rem;
+	border-bottom: 0.02rem solid #becfec;
+	margin-left: 1.61rem;
+	float: left;
+}
+.chaoliu2{
+	display: block;
+	width: 0.24rem;
+	height: 0.3rem;
+	background: url('../img/kuwan_.webp') no-repeat center center;
+	background-size: 0.24rem 0.3rem; 
+	margin: 0.16rem 0.1rem 0 0.2rem;
+	float: left;
+}
+.chaoliu3{
+	width: 1.11rem;
+	height: 0.24rem;
+	margin-top: 0.18rem;
+	font-size: 0.24rem;
+	color: #4a84e2;
+	float: left;
+}
+.chaoliu4{
+	margin-left: 0.06rem;
+}
+.kuwan{
+	width: 100%;
+	height: 2.6rem;
+}
+.kuwan li{
+    width: 33.333333%;
+    height: 2.6rem;
+    background: yellow;
+    float: left;
+}
+/* 品牌特卖 */
+.pinpai1{
+	width: 0.67rem;
+	height: 0.32rem;
+	border-bottom: 0.02rem solid #ffcc99;
+	margin-left: 1.61rem;
+	float: left;
+}
+.pinpai2{
+	display: block;
+	width: 0.29rem;
+	height: 0.3rem;
+	background: url('../img/xiaoxingxing..webp') no-repeat center center;
+	background-size: 0.29rem 0.3rem; 
+	margin: 0.16rem 0.1rem 0 0.2rem;
+	float: left;
+}
+.pinpai3{
+	width: 1.11rem;
+	height: 0.24rem;
+	margin-top: 0.18rem;
+	font-size: 0.24rem;
+	color: #ff8052;
+	float: left;
+}
+.pinpai4{
+	margin-left: 0.06rem;
+}
+.pinpai{
+	width: 100%;
+	height: 1.88rem;
+}
+.pinpai li{
+    width: 50%;
+    height: 1.88rem;
+    float: left;
+    box-sizing: border-box;
+}
+.pinpai li:first-child{
+	border-right: 0.02rem solid #ccc;
+}
+.img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 猜你喜欢 */
+.cai{
+	width: 100%;
+	height: 0.88rem;
+	background: #f0f0f0;
+}
+.cai1{
+	width: 0.27rem;
+	height: 0.45rem;
+	border-bottom: 0.02rem solid #999999;
+	margin-left: 2.25rem;
+	margin-right: 0.1rem;
+	float: left;
+}
+
+.cai2{
+	height: 100%;
+    line-height: 0.88rem;
+	font-size: 0.26rem;
+	color: #999999;
+	float: left;
+}
+.cai3{
+	margin-left: 0.1rem;
+}
+.like{
+	width: 100%;
+	height: 4.61rem;
+	border-bottom:0.06rem solid #f0f0f0;
+    box-sizing: border-box;
+}
+.like li{
+	width: 50%;
+	height: 100%;
+	border-right:0.03rem solid #f0f0f0;
+	padding-right: 0.01rem;
+    box-sizing: border-box;
+    float: left;
+}
+.like li:last-child{
+	border-right:0rem solid #f0f0f0;
+	border-left:0.03rem solid #f0f0f0;
+}
+.like1{
+	display: block;
+	width: 100%;
+	height: 3.17rem;
+	margin-bottom: 0.14rem;
+}
+.like2{
+	display: block;
+	width: 2.78rem;
+	height: 0.56rem;
+	margin-left: 0.17rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.25rem;
+	color: #666666;
+}
+.like3{
+	display: block;
+	height: 0.23rem;
+	margin-left: 0.17rem;
+}
+.like4{
+	height: 0.23rem;
+	font-size: 0.22rem;
+	color: #dd2727;
+	float: left;
+}
+.like5{
+	height: 0.17rem;
+	margin-top: 0.03rem;
+	font-size: 0.17rem;
+	color: #dd2727;
+	float: left;
+}
+.like6{
+	height: 0.18rem;
+	font-size: 0.18rem;
+	color: #dd2727;
+	float: left;
+	margin-right: 0.08rem;
+}
+.love{
+	border-bottom:0rem solid #f0f0f0;
+}
+/* end */
+.end1{
+	width: 100%;
+	height: 0.86rem;
+	background: #eeeeee;
+	border-bottom: 0.04rem solid #000;
+	padding-top: 0.26rem;
+	padding-left: 2.9rem;
+    box-sizing: border-box;
+}
+.end2{
+	display: block;
+	width: 0.6rem;
+	height: 0.42rem;
+	background: url('../img/end.png') no-repeat center center;
+	background-size: 0.6rem 0.42rem;
+}
+/* jiewei 44px  */
+.jiewei{
+    width: 5.21rem;
+    height: 0.26rem;
+    margin: 0.43rem 0.48rem 0.66rem 0.60rem;
+}
+.jiewei li a{
+	height: 0.26rem;
+	font-size: 0.22rem;
+	color: #999999;
+	float: left;
+}
+.jiewei1{
+	height: 0.26rem;
+	float: left;
+	font-size: 0.22rem;
+	color: #999999;
+	margin: 0 0.35rem;
+}
+.jiewei2{
+	display:block; 
+	width: 100%;
+	height: 0.20rem;
+	font-size: 0.20rem;
+	color: #d5cccc;
+	text-align: center;
+	margin-bottom: 0.5rem;
+}

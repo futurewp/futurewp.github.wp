@@ -1,0 +1,74 @@
+/*
+* @Author: asus
+* @Date:   2017-08-18 09:56:50
+* @Last Modified by:   asus
+* @Last Modified time: 2017-08-21 21:01:27
+*/
+body{
+	background: yellowgreen;
+}
+.shangbu{
+	width: 600px;
+	height: 300px;
+	background: #fff;
+	margin: 50px auto;
+	border-bottom: 300px solid #000;
+	border-radius: 50%;
+	position: relative;
+	transition: all 4s cubic-bezier(1,0.5,0,0.9)
+}
+.shangbu::before{
+	content: "";
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	display: block;
+	position: absolute;
+	border: 130px solid #000;
+	border-radius: 50%;
+	left: 0;
+	top: 50%;
+}
+.shangbu::after{
+	content: "";
+	width: 40px;
+	height: 40px;
+	background: #000;
+	display: block;
+	position: absolute;
+	border: 130px solid #fff;
+	border-radius: 50%;
+	right: 0;
+	top: 50%;
+}
+.shangbu:hover{
+	transform: rotate(360deg);
+}
+.hezi{
+	width: 1200px;
+	height: 1000px;
+	background: yellow;
+	margin: 0 auto;
+	position: relative;
+	transition: all 4s cubic-bezier(0.5,0.5,0,0.9);
+}
+.lala{
+	width: 200px;
+	height: 400px;
+	background: pink;
+	position: absolute;
+	left: 500px;
+	top: 300px;
+	overflow: hidden;
+}
+.haha{
+	width: 200px;
+	height: 200px;
+	background: red;
+	position: absolute;
+	bottom: -200px;
+}
+.lala:hover{
+	box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.6);
+	transform: translateY(-10px);
+}

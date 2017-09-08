@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>补充标签</title>
+	<link rel="shortcut icon" href="苹果官网/img/16.png">
+</head>
+<body>
+	<!-- 自动聚焦-for="idname" -->
+	<label for="man">
+		男：<input type="radio" name="sex" id="man">
+	</label>
+	<label for="woman">
+		女：<input type="radio" name="sex" id="woman">
+	</label><br>
+	<!-- 日期 -->
+	   <!-- 年月日 -->
+	   <input type="date"><br>
+	   <!-- 年月 -->
+	   <input type="month"><br>
+	   <!-- 年周 -->
+	   <input type="week"><br>
+	   <!-- 时分 -->
+	   <input type="time"><br>
+	   <!-- 年月日时分 -->
+	   <input type="datetime-local"><br>
+	<!-- 关于范围的标签 -->
+	    <!-- min:最小值  max：最大值 step：步长 value：默认值 -->
+	    数字范围: <input type="numb" min="0" max="10" step="2" value="2"><br>
+	    滑动范围: <input type="range" min="0" max="10" step="2" value="2"><br> 
+	<!-- 关于正则验证的标签（js中会用到） -->
+	    email: <input type="email"><br>
+	    url: <input type="url"><br>
+	    tel: <input type="tel"><br>
+	<!-- 关于颜色的标签（颜色板） -->
+	    <input type="color"><br>
+
+	<!-- html5中的最新标签 -->
+	    进度条: <progress min="0" max="10" value="5"></progress><br>
+	    范围：
+	        <meter min="0" max="10" value="5"></meter><br>
+	    音频：
+	    <!-- controls 向用户显示控件 loop：循环播放: autoplay:自动播放 -->
+	        <audio src="" controls="controls" loop="loop" autoplay="autoplay"></audio><br>
+	    视频：
+	         <video src="" controls="controls" loop="loop" autoplay="autoplay"></video>
+	    画布：
+	        <canvas style="width: 300px; height: 200px; background: #ccc;"></canvas>
+<!-- 锚链接 -->
+<a href="" name="mao"></a> (写到要跳转的页面上)
+<a href="#mao">chick me</a>
+
+<!-- 表格标签 -->
+<!--     thead的属性
+     border:边框 cellspacing ：单元格与单元格之间的距离
+     cellspadding：内容与单元格之间的距离
+     align： 整个表格水平方向的排布（left、center、right）
+     width：表格宽度 -->
+<table border="1px" cellspacing="0" cellpadding="15px" width="600px" align="center">
+	<thead>            <!--    头部 -->
+	    <caption>1707-1花名表</caption>            <!-- 标题 -->
+		<tr align="center">        <!-- 行 -->
+		    <th>姓名</th>
+		    <th>姓名</th>
+		    <th>姓名</th>
+		</tr>
+	</thead>
+
+	<tbody> <!-- 主体 -->
+<!-- 	tr的属性：                  
+	    align 文本在水平方向上的对齐方式
+	    valign 文本在垂直方向上的对齐方式-->
+		<tr align="center">
+<!-- 		td的属性：
+	    colspan 列合并
+	    rowspan 行合并 -->
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<tr align="center">
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+		<tr align="center">
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+		</tr>
+	</tbody>
+
+	<tfoot>           <!--  底部 -->
+		<tr align="center">
+			<td>合计</td>
+			<td colspan="2"></td>
+		</tr>
+	</tfoot>
+</table>
+
+
+
+<table border="1px" cellspacing="0" cellpadding="15px" width="600px" align="center">
+	<thead> 
+	    <caption>1707-1花名表</caption>
+		<tr align="center" bgcolor="red">  
+		    <th>姓名</th>
+		    <th>姓名</th>
+		    <th>姓名</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr align="center">
+			<td colspan="2">1</td>
+			<td rowspan="2">2</td>
+		</tr>
+		<tr align="center">
+			<td rowspan="2">5</td>
+			<td>6</td>
+		</tr>
+		<tr align="center">
+			<td colspan="2">8</td>
+		</tr>
+	</tbody>
+
+	<tfoot> 
+		<tr align="center">
+			<td>合计</td>
+			<td colspan="2"></td>
+		</tr>
+	</tfoot>
+</table>
+</body>
+</html>

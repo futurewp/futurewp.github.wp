@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="新建文本文档.css">
+</head>
+<body>
+ <form action="">
+  <fieldset>
+	<legend>基本信息</legend>
+	姓名：<input type="text" name="username" placeholder="请输入用户名"><br>
+	<!-- 密码框 -->
+	密码：<input type="password" name="psw" placeholder="请输入密码"><br>
+	<!-- 文件 -->
+	照片：<input type="file" name="file"><br>
+	<!-- 多选按钮 -->
+	请选择你喜欢的音乐：
+	<input type="checkbox" name="music[]">爵士
+	<input type="checkbox" name="music[]">爵士
+	<input type="checkbox" name="music[]">爵士<br>
+	<!-- 单选按钮 -->
+	<!-- name值相同可以实现单选-->
+	选择你居住的城市：
+	<input type="radio" name="city">山西
+	<input type="radio" name="city">北京
+	<input type="radio" name="city">西安<br>
+	<!-- 下拉框   size控制显示个数-->
+	选择你喜欢的网站：
+	<select name="" id="" size="4">
+		<option value="">新浪</option>
+		<option value="">谷歌</option>
+		<option value="">猪猪</option>
+		<option value="">吱吱</option>
+	</select><br>
+	<!-- 文本域 -->
+	留言：<textarea name="" id="" cols="50" rows="10"></textarea><br>
+	<!-- 提交按钮 -->
+	<input type="submit">
+	<!-- 重置按钮 -->
+	<input type="reset">
+	<!-- 自定义按钮 -->
+	<input type="button" value="搜索">
+	</fieldset>
+</form>
+</body>
+</html>
